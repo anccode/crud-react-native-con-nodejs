@@ -1,0 +1,32 @@
+@api = http://localhost:3000/tasks
+
+
+GET {{api}}
+
+
+###
+GET {{api}}/3
+
+###
+GET {{api}}/count
+
+###
+POST {{api}}
+Content-Type: application/json
+
+{
+    "title": "i must create 6",
+    "description": "using react native "
+}
+    
+###
+DELETE {{api}}/8
+
+###
+PUT  {{api}}/1
+Content-Type: application/json
+
+{
+    "title": "title 1",
+    "description": "desciption 1"
+}
